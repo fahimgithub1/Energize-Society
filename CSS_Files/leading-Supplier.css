@@ -1,0 +1,51 @@
+.leading-Suppliersec{
+    margin-top: 13.5rem;
+    margin-bottom: 5rem;
+}
+
+.solarpam-div{
+    background-color: rgb(228, 228, 228);
+    box-shadow: 1px 2px 5px 2px #888888;
+}
+
+.solarpam-span{
+    width: 99%;
+    height: 2px;
+    background-color: rgb(129, 124, 124);
+}
+
+/* .solarpam-div > h1{
+    margin-bottom: 1rem;
+} */
+
+.solarpam-div > p{
+    margin-top: 1rem;
+}
+.vrtes-onother{
+    top: -3.5rem;
+}
+
+.check-boxled{
+    margin-right: .5rem;
+}
+
+.solarpam-div{
+    position: relative;
+}
+
+.spandiv2{
+    position: absolute;
+    width: 90.1%;
+    height: 4px;
+    background-color: rgb(16, 133, 5);
+    bottom: 0;
+    border-radius: 0 0 6px 0;
+}
+
+.margin-topled{
+    margin-top: 4rem;
+}
+
+.lastpara-led{
+    padding-top: 2rem;
+}
