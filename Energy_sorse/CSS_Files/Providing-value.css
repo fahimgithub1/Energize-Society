@@ -1,0 +1,96 @@
+.Providing_value{
+    padding-top: 6.5rem;
+    padding-bottom: 5rem;
+}
+
+/*  */
+.Providing_value_p{
+    color: rgb(24, 148, 20);
+    font-weight: 500;
+}
+
+.btn-prval{
+    border: 2px solid wheat;
+    color: wheat;
+    margin-right: 1.5rem;
+    font-weight: bold;
+    padding: .8rem;
+}
+
+.btn-prval:hover{
+    background: rgb(10, 150, 5);
+    color: wheat;
+    border: none;
+    padding: .8rem;
+}
+
+.pionner-chack{
+    background-color: chartreuse;
+    padding: .2rem;
+    border-radius: 100%;
+    color: white;
+}
+
+.procv-span{
+    color: wheat;
+    border-radius: 80%;
+}
+
+/*  */
+
+.provvalu-smaldiv{
+    margin-top: 5rem;
+    padding: 5px;
+}
+
+.provvalu-smaldiv:hover{
+    padding: 10px;
+}
+
+.provvalu-smaldiv2{
+    border-radius: 7px;
+    padding: 2rem;
+}
+
+.provvalu-smaldiv2:hover{
+    border: 2px solid green;
+}
+
+.icon-divprvvel{
+    margin-bottom: .9rem;
+}
+
+.slider-margin{
+    bottom: -1rem;
+}
+/*  */
+
+/*  */
+.last-proval{
+    margin-top: 4rem;
+}
+
+.Providing_valuesec{
+    position: relative;
+
+}
+
+.last-provaltest{
+    margin-bottom: 1rem;
+}
+
+.last-divimhprovve2{
+    position: absolute;
+    position: relative;
+    right: 0;
+}
+
+.last-divimhprovve{
+    position: absolute;
+    width: 82%;
+    border-radius: 13px;
+    height: 400px;
+    /* margin: 2rem; */
+    margin-left: 5rem;
+}
+/*  */

@@ -1,0 +1,31 @@
+
+.painner-section{
+    margin-top: 3rem;
+}
+
+.painner-h2{
+    font-weight: bold;
+}
+
+.ponner-img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.pionner-smalep{
+    background-color: rgba(130, 197, 128, 0.5);
+    height: 30px;
+    width: 65%;
+    /* padding-left: .4rem; */
+    border-radius: 3px;
+    text-align: center;
+    color: rgb(110, 184, 37);
+}
+
+.painner-text{
+    padding-left: 1rem;
+}
+
+.check-box{
+    margin-right: .3rem;
+}

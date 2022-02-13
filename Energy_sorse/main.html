@@ -1,0 +1,536 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>enh</title>
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+
+            <!-- FontAwsome File Link -->
+            <link rel="stylesheet" href="fontawesome-free-6.0.0-web/webfonts">
+    
+            <!-- BOOTSAPE File Link  -->
+            <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+
+            <!-- google font -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        
+
+            <!-- Css Files -->
+            <link rel="stylesheet" href="Common.css">
+            <link rel="stylesheet" href="CSS_Files/Navbar.css">
+            <link rel="stylesheet" href="CSS_Files/Whit-div.css">
+            <link rel="stylesheet" href="CSS_Files/Heros.css">
+            <link rel="stylesheet" href="CSS_Files/Paionners.css">
+            <link rel="stylesheet" href="CSS_Files/Providing-value.css">
+        
+        </head>
+    
+        <body>
+    
+            <!-- navigation section -->
+            <section class="nav_ber full_color">
+                <nav class="navbar navbar-expand-lg navbar-light bg-Color">
+                    <div class="container-fluid">
+                      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                        <!-- call & mail part  -->
+                        <ul class=" col-lg-6 col-md-6 col-sm-12 row">
+                            <li class="">
+                                <a href="tel:01828065">
+                                    <i class="fa  fa-mobile icon-color"></i>
+                                    Phone: 0182835
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="mailto:patowa@gmail.com">
+                                    <i class="fa  fa-envelope icon-color"></i>
+                                    Email: patowar2@gmail.com
+                                </a>
+                            </li>
+
+                            <li class="">
+                                <a href="#" id="currentDateTime">
+                                    
+                                    <script>
+                                        var today = new Date();
+                                        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                                        document.getElementById("currentTime").value = time;
+                                    </script>
+                            
+                                    <i class="fa  fa-clock icon-color"></i>
+                                    
+                                    time
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="col-lg-2 col-md-4 col-sm-6 row">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-facebook-official fa-lg icon-color"></i> 
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="#">
+                                        <i class="fab fa-instagram-square fa-lg icon-color"></i>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="#">
+                                        <i class="fab fa-whatsapp-square fa-lg icon-color"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                       <button class="navbar-toggler nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                       </button>
+
+                        <div class="textbold collapse navbar-collapse col-lg-3 row" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">News & Media</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Creers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class=" col-lg-2 col-md-5 col-sm-6 row textbold">
+                            <img class="ul_pic" src="Images/uk.png" alt="">
+                            <p>English</p>
+                            <input class="inpch" type="checkbox"> 
+                        </div>
+                    </div>
+                  </nav>
+            </section>
+
+            <div class="white_div"></div>
+
+            <!-- Heoros -->
+            <section class="heors">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    
+                    
+                    <!-- <div class="carousel-indicators">
+                        <button class="active balow-size" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                        <button class=" balow-size" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div> -->
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Images/herors1pic (2).jpg" class="d-block w-100 carouselimg" alt="...">
+                            <div class="carousel-caption d-none d-md-block bg-locolor top-marginh row">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 heors-text">
+                                        <h1>Energize Society Using Sustainable & Reliable Energy</h1>
+                                        <p1>A world wide distributor of solar supplies knowledgeable service.</p1>
+                                        
+                                        <br><br>
+                                        <div class="littel-box">
+                                            <i class="fa fa-solar-panel fa-2x icon-margin-heros"></i>
+                                            <i class="fa fa-sun fa-2x icon-margin-heros"></i>
+                                            <i class="fa fa-sun-cloud"></i>
+                                            <img class="heors-iconing icon-margin-heros" src="Images/solarffff.png" alt="">
+                                            <button type="button" class="btn btn-success">Our Service <i class="fa fa-arrow-right"></i></button>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-lg-5 col-md-5 col-sm-12">
+                                        <div class="col-5 m-auto mission icon-center">
+                                            <div class="div-green"></div>
+                                            <div class="icon-center">
+                                                <img class="herosimage" src="Images/housetree.png" alt="">
+                                            </div>
+                                            <h5>Our Mission</h5>
+                                            <p class="mision-font">
+                                                Utilising latest processing solutiona, and decedes of work experemce.
+                                            </p>
+
+                                            <button type="button" class="btn btn-success btn-around"><i class="fa fa-arrow-right"></i></button>
+                                            
+                                            <!-- <i class="fa fa-tree fa-5x m-auto"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="Images/herors1pic (4).jpg" class="d-block w-100 carouselimg" alt="...">
+                            <div class="carousel-caption d-none d-md-block bg-locolor top-marginh row">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 heors-text">
+                                        <h1>Energize Society Using Sustainable & Reliable Energy</h1>
+                                        <p1>A world wide distributor of solar supplies knowledgeable service.</p1>
+                                        
+                                        <br><br>
+                                        <div class="littel-box">
+                                            <i class="fa fa-solar-panel fa-2x icon-margin-heros"></i>
+                                            <i class="fa fa-sun fa-2x icon-margin-heros"></i>
+                                            <i class="fa fa-sun-cloud"></i>
+                                            <img class="heors-iconing icon-margin-heros" src="Images/solarffff.png" alt="">
+                                            <button type="button" class="btn btn-success">Our Service <i class="fa fa-arrow-right"></i></button>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-lg-5 col-md-5 col-sm-12">
+                                        <div class="col-5 m-auto mission icon-center">
+                                            <div class="div-green"></div>
+                                            <div class="icon-center">
+                                                <img class="herosimage" src="Images/housetree2.png" alt="">
+                                            </div>
+                                            <h5>Our Mission</h5>
+                                            <p class="mision-font">
+                                                Utilising latest processing solutiona, and decedes of work experemce.
+                                            </p>
+
+                                            <button type="button" class="btn btn-success btn-around"><i class="fa fa-arrow-right"></i></button>
+                                            
+                                            <!-- <i class="fa fa-tree fa-5x m-auto"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active balow-size" aria-current="true" aria-label="Slide 1"></button>
+                        <button class="balow-size" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+
+                    <button class="carousel-control-prev buton-laftright buton-laft" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next buton-laftright buton-right" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="white_div"></div>
+            
+            <!-- painner section start -->
+            <section class="painner-section">
+                <div class="col-lg-10 col-md-10 col-sm-11 row m-auto">
+                    <div class="col-lg-5 col-md-4 col-sm-8">
+                        <img class="ponner-img" src="Images/solar-stric.jpg" alt="">
+                    </div>
+
+                    <div class="col-lg-7 col-md-7 col-sm-12 painner-text">
+                        <div class="pionner-smalep">
+                            <p>Complete Commercial And Residential System</p>
+                        </div>
+ 
+                        <br>
+                        <h2 class="painner-h2">We Are Poonners In The World Of Solar & Renewable Energy!</h2>
+
+                        <br><br>
+                        <div class="row">
+                            <div class="col-7">
+                                <p>We drive the transiton to more sustainable, ralible & affordable energy 
+                                    systems, With our innovative technologies, we energize society,thit's 
+                                    our ami!</p>
+                                <br><br>
+                                <p>The increase in extreme weather events and rising lecels are 
+                                    unmistakable signs of climate change. roughly 850 million
+                                    people still live without elecricity which is the foundation
+                                    of sustainable decelopment.</p>
+                            </div>
+    
+                            <div class="col-5">
+                                <p>How can we meet the growing demeand for delecticity while protecting 
+                                    our climate & make planet a better place?</p>
+                                <br><br>
+                                <p> <p class="check-box"><span class="pionner-chack "><i class="fa fa-check"></i></span> Relibibily and performance</p>
+                                    <p class="check-box"><span class="pionner-chack"><i class="fa fa-check"></i></span> Just-in-time manufacturing </p>
+                                    <p class="check-box"><span class="pionner-chack"><i class="fa fa-check"></i></span> Solar material financing</p>
+                            </div>
+
+                            <button type="button" class="btn btn-dark">Read more <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-lg-7 col-md-6 col-sm-12 row">
+                        
+                        <p class="pionner-smalep">Complete Commercial And Residential System</p>
+                        <h2>We Are Poonners In The World Of Solar & Renewable Energy!</h2>
+                        
+                        
+                        <div class="col-7">
+                            <p>We drive the transiton to more sustainable, ralible & affordable energy 
+                                systems, With our innovative technologies, we energize society,thit's 
+                                our ami!
+                            </p>
+
+                            <br><br>
+                        </div>
+
+                        <div class="col-5">
+                           <p> How can we meet the growing demeand for delecticity while protecting 
+                            our climate & make planet a better place?</p>
+                            <br><br>
+
+                        </div>
+
+                    </div> -->
+                </div>
+            </section>
+            <div class="white_div"></div>
+    
+
+            <!-- Providing value section -->
+            <section class="bg-Dark Providing_valuesec">
+                <div class="col-lg-10 Providing_value col-md-10 col-sm-12 m-auto">
+                    <p class="Providing_value_p">Sustainable, Reliable & Affordable Energy!</p>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h1 class="color-white">Providing value To Our ClientsThrough Onegoing Product &
+                                Innovation.</h1>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <p class="color-white">while improving the yield and performance of solar energy 
+                                products, our PV industry to provide in-depth material sourcing
+                                , financing and chain expertise for every step.</p>
+                            <br>
+                            <p class="color-white">Raw polycrystalline silion for PV manufacturing. Offered 
+                                in various grades and formats including, chips, powder and 
+                                ingot.</p>
+
+                            <button type="button" class="btn btn-prval">Get Start <i class="fa fa-arrow-right"></i></button>
+                            <button type="button" class="btn btn-prval">Explore Our Plans <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- carousel -->
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators slider-margin">
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active balow-size" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"  class="balow-size" aria-label="Slide 2"></button>
+                        </div>
+                        
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                <div class="row">
+                                    <div class="col-lg-3 icon-center provvalu-smaldiv">
+                                        <div class="provvalu-smaldiv2  bg-white">
+                                            <div class="col-6 m-auto">
+                                                <i class="fa fa-solar-panel fa-4x icon-divprvvel"></i>
+                                            </div>
+                                            <h5>Save Your Money</h5>
+                                            <p>Save money on utilities or increase the value of your home
+                                                by installing solar panels as a grat option.</p>
+                                            
+                                            <button type="button" class="btn btn-success procv-span"> <i class="fa fa-arrow-right"></i> </buttonbutton>
+                                        
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 icon-center provvalu-smaldiv">
+                                        <div class="provvalu-smaldiv2  bg-white">
+                                            <div class="col-6 m-auto">
+                                                <i class="fa fa-solar-panel fa-4x icon-divprvvel"></i>
+                                            </div>
+                                            <h5>Home Is Energy </h5>
+                                            <p>Everyday the sun provides us with abundance of free energy
+                                                by placing solar panels on your roof.</p>
+                                            
+                                            <button type="button" class="btn btn-success procv-span"> <i class="fa fa-arrow-right"></i> </buttonbutton>
+                                        
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 icon-center provvalu-smaldiv">
+                                        <div class="provvalu-smaldiv2  bg-white">
+                                            <div class="col-6 m-auto">
+                                                <i class="fa fa-solar-panel fa-4x icon-divprvvel"></i>
+                                            </div>
+                                            <h5>Consult & Planning</h5>
+                                            <p>Our remote industrial solar systems are designed to reliably
+                                                power our clients critical remote.</p>
+                                                <!--  locations -->
+                                            
+                                            <button type="button" class="btn btn-success procv-span"> <i class="fa fa-arrow-right"></i> </buttonbutton>
+                                        
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 icon-center provvalu-smaldiv">
+                                        <div class="provvalu-smaldiv2  bg-white">
+                                            <div class="col-6 m-auto">
+                                                <i class="fa fa-solar-panel fa-4x icon-divprvvel"></i>
+                                            </div>
+                                            <h5>Certified Enginers</h5>
+                                            <p>Our sales engineers on our staff have experience and can design
+                                                any complete solar system.</p>
+                                            
+                                            <button type="button" class="btn btn-success procv-span"> <i class="fa fa-arrow-right"></i> </buttonbutton>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                <div class="row">
+                                    <div class="col-lg-3 icon-center provvalu-smaldiv">
+                                        <div class="provvalu-smaldiv2  bg-white">
+                                            <div class="col-6 m-auto">
+                                                <i class="fa fa-house-user fa-4x icon-divprvvel"></i>
+                                            </div>
+                                            <h5>Save Your Money</h5>
+                                            <p>Save money on utilities or increase the value of your home
+                                                by installing solar panels as a grat option.</p>
+                                            
+                                            <button type="button" class="btn btn-success procv-span"> <i class="fa fa-arrow-right"></i> </buttonbutton>
+                                        
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 icon-center provvalu-smaldiv">
+                                        <div class="provvalu-smaldiv2  bg-white">
+                                            <div class="col-6 m-auto">
+                                                <i class="fa fa-house-user fa-4x icon-divprvvel"></i>
+                                            </div>
+                                            <h5>Home Is Energy </h5>
+                                            <p>Everyday the sun provides us with abundance of free energy
+                                                by placing solar panels on your roof.</p>
+                                            
+                                            <button type="button" class="btn btn-success procv-span"> <i class="fa fa-arrow-right"></i> </buttonbutton>
+                                        
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 icon-center provvalu-smaldiv">
+                                        <div class="provvalu-smaldiv2  bg-white">
+                                            <div class="col-6 m-auto">
+                                                <i class="fa fa-house-user fa-4x icon-divprvvel"></i>
+                                            </div>
+                                            <h5>Consult & Planning</h5>
+                                            <p>Our remote industrial solar systems are designed to reliably
+                                                power our clients critical remote.</p>
+                                                <!--  locations -->
+                                            
+                                            <button type="button" class="btn btn-success procv-span"> <i class="fa fa-arrow-right"></i> </buttonbutton>
+                                        
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 icon-center provvalu-smaldiv">
+                                        <div class="provvalu-smaldiv2  bg-white">
+                                            <div class="col-6 m-auto">
+                                                <i class="fa fa-house-user fa-4x icon-divprvvel"></i>
+                                            </div>
+                                            <h5>Certified Enginers</h5>
+                                            <p>Our sales engineers on our staff have experience and can design
+                                                any complete solar system.</p>
+                                            
+                                            <button type="button" class="btn btn-success procv-span"> <i class="fa fa-arrow-right"></i> </buttonbutton>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- no need -->
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button> -->
+                      </div>
+
+                    <!-- <div class="row">
+                        <div class="col-lg-3 icon-center provvalu-smaldiv">
+                            <div class="provvalu-smaldiv2  bg-white">
+                                <div class="col-6 m-auto">
+                                    <i class="fa fa-solar-panel fa-4x icon-divprvvel"></i>
+                                </div>
+                                <h5>Save Your Money</h5>
+                                <p>Save money on utilities or increase the value of your home
+                                    by installing solar panels as a grat option.</p>
+                                
+                                <button type="button" class="btn btn-success procv-span"> <i class="fa fa-arrow-right"></i> </buttonbutton>
+                            
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 icon-center provvalu-smaldiv">
+                            <div class="provvalu-smaldiv2  bg-white">
+                                <div class="col-6 m-auto">
+                                    <i class="fa fa-solar-panel fa-4x icon-divprvvel"></i>
+                                </div>
+                                <h5>Home Is Energy </h5>
+                                <p>Everyday the sun provides us with abundance of free energy
+                                    by placing solar panels on your roof.</p>
+                                
+                                <button type="button" class="btn btn-success procv-span"> <i class="fa fa-arrow-right"></i> </buttonbutton>
+                            
+                            </div>
+                        </div>
+                        <div class="col-lg-3 icon-center provvalu-smaldiv">
+                            <div class="provvalu-smaldiv2  bg-white">
+                                <div class="col-6 m-auto">
+                                    <i class="fa fa-solar-panel fa-4x icon-divprvvel"></i>
+                                </div>
+                                <h5>Consult & Planning</h5>
+                                <p>Our remote industrial solar systems are designed to reliably
+                                    power our clients critical remote.</p>
+                                    
+                                
+                                <button type="button" class="btn btn-success procv-span"> <i class="fa fa-arrow-right"></i> </buttonbutton>
+                            
+                            </div>
+                        </div>
+                        <div class="col-lg-3 icon-center provvalu-smaldiv">
+                            <div class="provvalu-smaldiv2  bg-white">
+                                <div class="col-6 m-auto">
+                                    <i class="fa fa-solar-panel fa-4x icon-divprvvel"></i>
+                                </div>
+                                <h5>Certified Enginers</h5>
+                                <p>Our sales engineers on our staff have experience and can design
+                                    any complete solar system.</p>
+                                
+                                <button type="button" class="btn btn-success procv-span"> <i class="fa fa-arrow-right"></i> </buttonbutton>
+                            
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="row color-white last-proval">
+                        <div class="col-lg-4 col-md-4 col-sm-6 last-provaltest">
+                            <h6>If you have any questions or need help, feel free to contect 
+                                with our team, or can calll us any time(008) 0176542311</h6>
+                                <br>
+                            <button type="button" class="btn btn-prval">Free Estimate <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-5 last-divimhprovve2">
+                            <img class="last-divimhprovve" src="Images/herors1pic (1).jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!--  -->
+            <section>
+                
+            </section>
+
+            <!--FontAwsome icone      -->
+            <script src="https://kit.fontawesome.com/31956c6ca4.js" crossorigin="anonymous"></script>
+
+            <!-- BOOTSTAP link -->
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        
+        </body>
+    </html>
