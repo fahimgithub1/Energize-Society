@@ -1,0 +1,95 @@
+.Discover-Inde{
+    background-color: rgb(48, 141, 19,0.9);
+    padding: 4rem 0rem 4rem 0rem;
+    margin-top: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+
+/* test part start */
+/* .Discover-Thro{
+
+} */
+
+.maroginnon{
+    padding: 0;
+}
+
+.check-boxdis{
+    /* background-color: chartreuse; */
+    border-radius: 100%;
+    color: rgb(72, 214, 6,0.5);
+    width: 15px;
+    height: 10ft;
+    margin-top: 5px;
+    float: left;
+}
+
+.check-boxdis1{
+    float: left;
+}
+
+.btn-dishov:hover{
+    color: green;
+    background-color: wheat;
+}
+
+.recivhelp-pag{
+    margin-top: 5rem
+}
+/* test part end */
+
+
+/* from part start */
+.Discover-from{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.col-6{
+    padding: 0;
+}
+
+.Discover-fromp{
+    font-size: 12px;
+}
+
+.texteigbalc{
+    color: rgb(65, 65, 63);
+}
+
+.fromlevel{
+    font-size: 14px;
+
+}
+
+.formlstdiv-dis{
+    margin-top: .7rem;
+    margin-bottom: 2rem;
+}
+
+.fromselect{
+    width: 95%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: .5rem;
+    color: rgb(65, 65, 63);
+    background-color: rgb(222, 222, 223);
+}
+
+.dis-span{
+    margin-right: .5rem;
+}
+
+.dis-span input{
+    margin-right: .2rem;
+}
+
+.fstlevel-dis{
+    margin-bottom: 1rem;
+}
+
+/* from part end */
