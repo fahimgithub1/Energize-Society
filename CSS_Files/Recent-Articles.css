@@ -1,0 +1,44 @@
+.Recent-Arti{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.RecentArti-bg{
+    background-color: rgb(216, 208, 208);
+}
+
+.Recent-img{
+    position: relative;
+}
+
+.RecArti-alintop{
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    bottom: -1rem;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(231, 231, 231);
+    background-color: rgb(16, 189, 24);
+}
+
+.Recentimg-div{
+    margin-top: 1rem;
+}
+
+.Recent-btn{
+    border: 1px solid black;
+}
+
+.Recent-btn:hover{
+    background-color: rgb(9, 160, 34);
+    border: none;
+    color: wheat;
+}
+
+.Recent-btn i{
+    background-color: black;
+    padding: 3px;
+    border-radius: 100%;
+    color: wheat;
+}
