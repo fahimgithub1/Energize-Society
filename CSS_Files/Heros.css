@@ -8,12 +8,13 @@
 }
 
 .buton-laftright{
-    height: 35px;
+    height: 40px;
     width: 40px;
     top: 40%;
-    border-radius: 50%;
+    border-radius: 100%;
     background-color:blue;
-}   
+}
+
 .buton-laft{
     left: 3%;
 } 
