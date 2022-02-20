@@ -29,6 +29,10 @@
     float: left;
 }
 
+.btn-dishov{
+    margin-bottom: .5rem;
+}
+
 .btn-dishov:hover{
     color: green;
     background-color: wheat;
