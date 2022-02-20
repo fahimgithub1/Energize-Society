@@ -30,14 +30,117 @@
             <link rel="stylesheet" href="CSS_Files/Discover-Independence.CSS">
             <link rel="stylesheet" href="CSS_Files/Recent-Articles.css">
             <link rel="stylesheet" href="CSS_Files/Footer.css">
+            <!-- <link rel="stylesheet" href="CSS_Files/Fristnav.css"> -->
         
         </head>
     
         <body>
-            <!-- navigation section -->
-           <section class="nav_ber full_color">
-                <!-- navber2nd -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-Dark">
+
+            <!-- fist nav -->
+            <nav class="navbar navbar-expand-lg navbar-Dark bg-Dark col-12 fontsiz">
+                <div class="container-fluid row">
+                  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                  
+                    <!-- <div class="row"> -->
+                        <div class="col-lg-6 col-md-6 col-sm-7 nev-conect">
+                            <ul class="navbar-nav col-sm-10">
+                                <li class="nav-item">
+                                    <a  class="nav-link" href="tel:01828065">
+                                        <i class="navconect-icon fa  fa-mobile icon-color"></i>
+                                        Phone: 0182835
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  class="nav-link" href="mailto:patowa@gmail.com">
+                                        <i class="navconect-icon fa  fa-envelope icon-color"></i>
+                                        Email: patowar2@gmail.com
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"  href="mailto:patowa@gmail.com">
+                                        <!-- <script>
+                                            id="currentDateTime"
+                                            var today = new Date();
+                                            var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                                            document.getElementById("currentTime").value = time;
+                                        </script> -->
+                                        <i class="navconect-icon fa  fa-clock icon-color"></i>
+                                        time
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                </li>
+                            </ul>
+    
+                            <button class="navbar-toggler col-sm-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-66 col-sm-5 row collapse navbar-collapse" id="navbarNav">
+                            <div class="col-2 social-icon">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                            <i class="navconect-icon fa fa-facebook-official fa-lg icon-color"></i> 
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                            <i class="navconect-icon fab fa-instagram-square fa-lg icon-color"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                            <i class="navconect-icon fab fa-whatsapp-square fa-lg icon-color"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="col-7 m-auto testbomd">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">News & Media</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Creers</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">FAQs</a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="col-3 row">
+                                <div class="row navbar-nav">
+                                    <img class="uk-pic nav-link nav-item col-6" src="data:image/png;base64,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" alt="">
+                                    
+                                    <!-- <div class="nav-link nav-item col-4"> -->
+                                        <form class="col-4 frromenglish" action="/action_page.php">
+                                            <!-- <label for="cars">Choose a car:</label> -->
+                                            <select name="cars" id="cars">
+                                              <option value="volvo">Elglish</option>
+                                              <option value="saab">Bangla</option>
+                                            </select>
+                                            <!-- <br><br>
+                                            <input type="submit" value="Submit"> -->
+                                          </form>
+                                    <!-- </div> -->
+                                </div>
+                                <!-- <div class="col-3 navbar-nav">
+                                    
+                                </div> -->
+                            </div>
+                        </div>
+                        
+                    <!-- </div> -->
+                </div>
+            </nav>
+            <!-- fist nav -->
+            <!-- navber2nd -->
+            <nav class="navbar navbar-expand-lg navbar-Dark bg-Dark">
                 <div class="container-fluid m-auto">
                   <a class="navbar-brand nav-img" href="#">
                       <img class="" src="Images/solarffff.png" alt="">
@@ -123,10 +226,6 @@
                     </div>
                 </div>
             </nav>
-           </section>
-
-           
-            
 
             <!-- Heoros -->
             <section class="heors">
